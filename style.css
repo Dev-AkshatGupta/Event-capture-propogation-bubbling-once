@@ -1,0 +1,37 @@
+/* *{box-sizing: border-box;}
+body{margin: 0;}
+.parent{
+    background-color: black;
+    width: 90%;
+    margin: 0 auto;
+    height: 50%;
+}
+.children{
+    background: burlywood;
+    width: 70%;
+    height: 90%;
+} */
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after { 
+    box-sizing: inherit; 
+  }
+
+  div {
+    width: 100%;
+    padding: 100px;
+  }
+
+  .one {
+    background: thistle;
+  }
+
+  .two {
+    background: mistyrose;
+  }
+
+  .three {
+    background: coral;
+  }
